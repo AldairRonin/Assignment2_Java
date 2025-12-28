@@ -36,7 +36,16 @@ Relationships
 
 
 C.Instructions to Compile and Run
-javac *.java
-java Main
+    javac *.java
+    java Main
 
 D.Screenshots
+![image alt](https://github.com/AldairRonin/Assignment2_Java/blob/main/docs/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-12-28%20163345.png?raw=true)
+
+E.Reflection
+This project demonstrates the advantages of inheritance by allowing subclasses (Car, Motorcycle, Truck) to share common functionality from the Vehicle class.
+Method overriding was used to customize behaviors of startEngine() and stopEngine() for each vehicle type.
+
+Using protected and private access modifiers helped practice encapsulation and safe handling of object fields. One challenge was deciding when to use protected versus private to balance subclass access and data protection.
+
+Overall, this assignment helped me understand how abstract classes, composition, aggregation work together in a real Java application.
