@@ -19,4 +19,12 @@ public abstract class Vehicle {
     public void setDriver(Driver driver) {
         this.driver = driver;
     }
+
+    public void displayDriverInfo() {
+        if (driver != null) {
+            driver.displayDriverInfo();
+        } else {
+            System.out.println("No driver assigned.");
+        }
+    }
 }
