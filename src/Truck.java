@@ -8,7 +8,7 @@ public class Truck extends Vehicle {
         this.capacity = capacity;
         this.numberOfAxles = numberOfAxles;
     }
-    @Override
+    @Override // реализуем абстрактные методы из Vehicle
     public void startEngine() {
         System.out.println("Truck engine started.");
     }

@@ -6,7 +6,7 @@ public class Motorcycle extends Vehicle {
         this.hasSidecar = hasSidecar;
     }
 
-    @Override
+    @Override // реализуем абстрактные методы из Vehicle
     public void startEngine() {
         System.out.println("Motorcycle engine started.");
     }

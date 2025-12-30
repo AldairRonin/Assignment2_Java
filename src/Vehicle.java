@@ -9,8 +9,8 @@ public abstract class Vehicle {
         this.year = year;
     }
 
-    public abstract void startEngine();
-    public abstract void stopEngine();
+    public abstract void startEngine(); //каждый childclass должен реализовать этот метод
+    public abstract void stopEngine(); //каждый childclass должен реализовать этот метод
 
     public void display_info() {
         System.out.println("Brand: " + brand + ", Year: " + year);
@@ -21,10 +21,6 @@ public abstract class Vehicle {
     }
 
     public void displayDriverInfo() {
-        if (driver != null) {
-            driver.displayDriverInfo();
-        } else {
-            System.out.println("No driver assigned.");
-        }
+        driver.displayDriverInfo();
     }
 }

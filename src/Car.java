@@ -9,7 +9,7 @@ public class Car extends Vehicle {
 
     }
 
-    @Override
+    @Override // реализуем абстрактные методы из Vehicle
     public void startEngine() {
         System.out.println("Car engine started.");
     }
